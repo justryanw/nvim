@@ -19,3 +19,6 @@ nnoremap <C-l> <C-w>l
 nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR>
 
+" Open NERDTree
+nnoremap <Leader>t :NERDTreeToggle<CR>
+

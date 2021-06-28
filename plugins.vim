@@ -12,7 +12,6 @@ Plug 'scrooloose/NERDTree'
 " Auto pairs for '(' '[' '{'
 Plug 'jiangmiao/auto-pairs'
 " Themes
-Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
 " Status Line
 Plug 'vim-airline/vim-airline'
