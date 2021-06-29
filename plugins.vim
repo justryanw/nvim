@@ -5,6 +5,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
+
 " Better Syntax Support
 Plug 'sheerun/vim-polyglot'
 " File Explorer
@@ -16,5 +17,15 @@ Plug 'morhetz/gruvbox'
 " Status Line
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" Git Integration
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/gv.vim'
+
 call plug#end()
+
+" Source Configs
+source $HOME/.config/nvim/plug-config/airline.vim
+source $HOME/.config/nvim/plug-config/signify.vim
 
