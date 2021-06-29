@@ -3,7 +3,6 @@ let g:mapleader = "\<Space>"
 syntax enable
 set hidden
 set pumheight=10															" Menu popup height
-set cmdheight=2
 set iskeyword+=-															" Treat dash seperated words as a word text object
 set expandtab																	" Converts tabs to spaces
 set smartindent
