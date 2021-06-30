@@ -28,11 +28,11 @@ Plug 'hrsh7th/nvim-compe'
 
 call plug#end()
 
-" Source Configs
+" Source configs
 source $HOME/.config/nvim/plug-config/airline.vim
 source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/plug-config/lsp-config.vim
 
-" Require lua configs
+" Source lua configs
 :luafile $HOME/.config/nvim/plug-config/compe-config.lua
 
