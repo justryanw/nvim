@@ -21,4 +21,8 @@ nnoremap <S-TAB> :bprevious<CR>
 
 " Open NERDTree
 nnoremap <Leader>t :NERDTreeToggle<CR>
+" Browse on Github
+nnoremap <Leader>b :GBrowse<CR>
+" See changes
+nnoremap <Leader>c :GV<CR>
 
